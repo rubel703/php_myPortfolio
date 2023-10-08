@@ -1,0 +1,17 @@
+{
+  "name": "portfolio/portfolio",
+  "description": "It's a portfolio project ",
+  "type": "project",
+  "keywords": [],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    },
+    "files": [
+      "app/helpers.php"
+    ]
+  }
+}
